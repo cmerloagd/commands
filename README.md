@@ -343,3 +343,7 @@ git config --global color.ui true : # Aplicar color al git.
 ```sh
  SET FOREIGN_KEY_CHECKS = 0;truncate attachment_additional_doc; truncate attachment_oqs; truncate attachment_visits; truncate attachments; truncate balance_cancelations; truncate building_visit_dates; truncate building_visit_headers; truncate calendaries; truncate chat_messages; truncate chat_participants; truncate chat_threads; truncate contacts_for_ocs; truncate filings; truncate mail_invitations;truncate metrics;truncate notifications; truncate oq_additional_costs; truncate oq_line_additional_costs; truncate oq_lines; truncate oqs; truncate oqs_added; truncate px_company; truncate px_company_notification; truncate px_company_oq; truncate px_company_oq_lines; truncate px_company_oq_lines_comments; truncate px_company_requote_comments; truncate px_oq; truncate pxs; truncate reject_comment_ocs; truncate statistics_oqs; truncate web_hooks; truncate doc_memory; SET FOREIGN_KEY_CHECKS = 1;
  ```
+```sh
+#### Comando artisan para transferir respuestas de proveedores de una PX GRANDE (137) 
+/var/www/html$ sudo php artisan jde:enviar-respuestas --px PX13459
+```
