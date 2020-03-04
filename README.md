@@ -332,6 +332,7 @@ git config --global color.ui true : # Aplicar color al git.
 
 ##### Comandos Artisan
 
-```Genera password aleatorio (HASH+Password) 137
+```sh
+Genera password aleatorio (HASH+Password) 137
 cd /var/www/html/
 php artisan password:generate
