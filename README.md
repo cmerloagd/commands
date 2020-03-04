@@ -329,3 +329,9 @@ git config --global user.name "Sam Smith" : # Configurar name que será identifi
 git config --global user.email sam@example.com : # Configurar email que será identificado al hacer el commits.
 git config --global color.ui true : # Aplicar color al git.
  ```
+
+##### Comandos Artisan
+
+```Genera password aleatorio (HASH+Password) 137
+cd /var/www/html/
+php artisan password:generate
