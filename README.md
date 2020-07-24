@@ -344,3 +344,9 @@ php artisan password:generate
 Toma la última actualización/migración de datos desde JDE que dió ok y la ejecuta hasta el momento 
 http://172.30.0.137:8080/job/Portal%20de%20Compras%20-%20Migraci%C3%B3n%20de%20datos%20masiva/
  ```
+##### Node
+
+```sh
+sudo service nombre_servicio status
+sudo service nombre_servicio stop/start/restart
+ ```
