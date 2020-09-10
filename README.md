@@ -350,3 +350,7 @@ http://172.30.0.137:8080/job/Portal%20de%20Compras%20-%20Migraci%C3%B3n%20de%20d
 sudo service nombre_servicio status
 sudo service nombre_servicio stop/start/restart
  ```
+ ##### Proveedores B&S activos
+```sh
+ SELECT  users.id,`email`, created  FROM `users` join user_profiles on users.id = user_profiles.user_id WHERE `activated` = 1 and email != "" and email != "www" and email != "sin informar" and email like '%@%' and CREATE != "0000-00-00 00:00:00" and email_validated= 1 GROUP by email
+ ```
